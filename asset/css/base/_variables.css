@@ -1,0 +1,29 @@
+:root {
+    --fonte-familia-corpo: 'Raleway', sans-serif;
+    --fonte-tamanho-12:0.75rem;
+    --fonte-tamanho-14: 0.88rem;
+    --fonte-tamanho-16: 1rem;
+    --fonte-tamanho-18: 1.15rem;
+    --fonte-tamanho-22: 1.38rem;
+    --fonte-tamanho-32: 2rem;
+    --fonte-tamanho-52: 3.25rem;
+    --fonte-peso-400: 400;
+    --fonte-peso-500: 500;
+    --fonte-peso-600: 600;
+    --fonte-peso-700: 700;
+
+    
+    --cor-primaria: #2A7AE4;
+    --cor-secundaria: #E5E5E5;
+    --cor-contraste-escuro: #464646;
+    --cor-contraste-medio: #A2A2A2;
+    --cor-contraste-claro: #fff;
+    
+    --cor-input: #C8C8C8;
+    --cor-bc-azul: #EAF2FD;
+    --cor-hover-claro: #D4E4FA;
+    --cor-hover-escuro: #5595E9;
+    --cor-aviso: #ec6b6b;
+
+    --sombra: 0 5px 10px #55a6ff38;
+}
