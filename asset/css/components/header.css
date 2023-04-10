@@ -1,0 +1,22 @@
+.header {
+    height: 4.5rem;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2.2rem;
+}
+.header__box {
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.2rem;
+    width: 90%;
+}
+.glass__container {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (min-width: 576px) {
+    .header__box {
+        flex-direction: row-reverse;
+    }
+}

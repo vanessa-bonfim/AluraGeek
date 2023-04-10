@@ -1,29 +1,27 @@
 :root {
-    --fonte-familia-corpo: 'Raleway', sans-serif;
-    --fonte-tamanho-12:0.75rem;
-    --fonte-tamanho-14: 0.88rem;
-    --fonte-tamanho-16: 1rem;
-    --fonte-tamanho-18: 1.15rem;
-    --fonte-tamanho-22: 1.38rem;
-    --fonte-tamanho-32: 2rem;
-    --fonte-tamanho-52: 3.25rem;
-    --fonte-peso-400: 400;
-    --fonte-peso-500: 500;
-    --fonte-peso-600: 600;
-    --fonte-peso-700: 700;
+    --font-family-body: 'Raleway', sans-serif;
+    --font-size-12:0.75rem;
+    --font-size-14: 0.88rem;
+    --font-size-16: 1rem;
+    --font-size-18: 1.15rem;
+    --font-size-22: 1.38rem;
+    --font-size-32: 2rem;
+    --font-size-52: 3.25rem;
+    --font-weight-400: 400;
+    --font-weight-500: 500;
+    --font-weight-600: 600;
+    --font-weight-700: 700;
 
     
-    --cor-primaria: #2A7AE4;
-    --cor-secundaria: #E5E5E5;
-    --cor-contraste-escuro: #464646;
-    --cor-contraste-medio: #A2A2A2;
-    --cor-contraste-claro: #fff;
+    --color-primary: #2A7AE4;
+    --color-secundary: #E5E5E5;
+    --color-contrast-dark: #464646;
+    --color-contrast-medium: #A2A2A2;
+    --color-contrast-light: #fff;
     
-    --cor-input: #C8C8C8;
-    --cor-bc-azul: #EAF2FD;
-    --cor-hover-claro: #D4E4FA;
-    --cor-hover-escuro: #5595E9;
-    --cor-aviso: #ec6b6b;
-
-    --sombra: 0 5px 10px #55a6ff38;
+    --color-input-medium: #F5F5F5;
+    --background-colorful: #EAF2FD;
+    --color-hover-light: #D4E4FA;
+    --color-hover-dark: #5595E9;
+    --color-warning: #ec6b6b;
 }

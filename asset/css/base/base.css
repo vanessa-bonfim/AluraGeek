@@ -1,0 +1,55 @@
+@import url(_reset.css);
+@import url(_variables.css);
+
+.borda{
+	border: solid 1px red;
+}
+*{
+	box-sizing: border-box;
+}
+
+body {
+	/* background-color: var(--color-contrast-light); */
+	color: var(--color-contrast-dark);
+	font-family: var(--font-family-body);
+	overflow-x: hidden;
+}
+
+.container {
+	padding-right: 1rem;
+	padding-left: 1rem;
+    width: 100%;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex--center {
+	align-items: center;
+	justify-content: center;
+}
+
+.flex--column {
+	flex-direction: column;
+}
+.flex--row {
+	flex-direction: row;
+}
+.flex--wrap {
+	flex-wrap: wrap;
+}
+
+@media(min-width: 768px) {
+	.container {
+		padding-right: 2rem;
+		padding-left: 2rem;
+	}
+}
+
+@media(min-width: 992px) {
+	.container {
+		padding-left: 9.5rem;;
+		padding-right: 9.5rem;;
+	}
+}

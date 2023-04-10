@@ -1,0 +1,40 @@
+.input__container {
+    display: none;
+}
+
+.input {
+    box-sizing: border-box;
+    color: var(--color-contrast-dark);
+    font-size: var(--fonr-size-14);
+    font-weight: var(--font-weight-400);
+    width: 100%;
+}
+.input::placeholder {
+    color: var(--color-contrast-medium);
+}
+.input:focus {
+    outline: none;
+}
+
+.input-search {
+    border-radius: 20px;
+    background-image: url("../../img/svg/magnifyingGlass.svg");
+    background-repeat: no-repeat;
+    background-position: 98% center;
+    background-color: var(--color-input-medium);
+
+    padding: 10px;
+    width: 15rem;
+    height: 3rem;
+}
+
+@media screen and (min-width: 576px) {
+    .input__container {
+        display: flex;
+    }
+}
+@media screen and (min-width: 768px) {
+    .input-search {
+        width: 27rem;
+    }
+}

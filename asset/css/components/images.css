@@ -1,0 +1,34 @@
+.brand {
+    width: 6.3rem;
+}
+
+.glass {
+    width: 1.1rem;
+}
+
+.banner__image {
+    background-image: url(../../img/png/mushroon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 190px;
+    width: 100%;
+    background-size:cover;
+}
+@media screen and (min-width: 576px) {
+    .glass {
+        display: none;
+    }
+}
+@media screen and (min-width: 768px) {
+    .brand {
+        width: 7.5rem;
+    }
+    .banner__image {
+        height: 352px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .brand {
+        width: 11rem;
+    }
+}
