@@ -1,0 +1,124 @@
+.others {
+    padding-bottom: 2rem;
+}
+
+.others__box-section-title {
+    align-items: center;
+    justify-content: space-between;
+    line-height: 25px;
+    margin-bottom: 1rem;
+}
+
+.others__title {
+    font-size: var(--font-size-22);
+    font-weight: var(--font-weight-700);
+}
+
+.others__box-all-products-view {
+    color: var(--color-primary);
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-700);
+}
+
+.others__box-section-itens {
+    gap: 1rem;
+    justify-content: flex-start;
+}
+
+.others__box-section-itens .others__box-item:nth-last-child(-n+2) {
+    display: none;
+}
+
+.others__box-item {
+    width: 9.7rem;
+}
+
+.others__box-image-product {
+    width: 9.7rem;
+}
+
+.others__product-title {
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-500);
+    padding-top: .5rem;
+}
+
+.others__product-price {
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-700);
+    padding-top: .5rem;
+}
+
+.others__product-view {
+    color: var(--color-primary);
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-700);
+    padding-top: .5rem;
+}
+
+@media screen and (min-width: 576px) {
+    .others__box-item {
+        width: 10.2rem;
+    }
+
+    .others__box-image-product {
+        width: 10.2rem;
+    }
+
+    .others__box-all-products-view {
+        font-size: var(--font-size-16);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .others__box-item {
+        width: 9.97rem;
+    }
+
+    .others__box-image-product {
+        width: 9.75rem;
+    }
+    .others {
+        padding-bottom: 4rem;
+    }
+}
+
+@media screen and (min-width: 950px) {
+    .others__box-section-itens .others__box-item:nth-last-child(2) {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .others__box-item {
+        width: 11.97rem;
+    }
+
+    .others__box-image-product {
+        width: 11.97rem;
+    }
+
+    .others__box-section-itens .others__box-item:nth-last-child(1) {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .others__box-item {
+        width: 10.96rem;
+    }
+
+    .others__box-image-product {
+        width: 10.96rem;
+    }
+}
+
+/* @media screen and (min-width: 1500px) {
+    .others__box-item {
+        width: 12.5rem;
+    }
+
+    .others__box-image-product {
+        width: 12.5rem;
+    }
+} */

@@ -1,9 +1,12 @@
 @import url(_reset.css);
 @import url(_variables.css);
 
-.borda{
+/* .borda{
 	border: solid 1px red;
-}
+} */
+	.d-none {
+		display:none
+	}
 *{
 	box-sizing: border-box;
 }
@@ -49,7 +52,7 @@ body {
 
 @media(min-width: 992px) {
 	.container {
-		padding-left: 9.5rem;;
-		padding-right: 9.5rem;;
+		padding-left: 9.5rem;
+		padding-right: 9.5rem;
 	}
 }
