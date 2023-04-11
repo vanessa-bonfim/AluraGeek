@@ -4,6 +4,7 @@
     padding: 0.75rem 1rem;
     box-sizing: border-box;
     font-size: var(--font-size-14);
+    height: 2.5rem;
     align-self: center;
     text-align: center;
 }
@@ -12,13 +13,28 @@
     color: var(--color-primary);
     font-weight: var(--font-weight-600);
     border: solid 1px var(--color-primary);
-    height: 2.5rem;
     width: 8.32rem;
 }
 
+/* .button__container {
+
+} */
+.banner__description-button {
+    background-color: var(--color-primary);
+    color: var(--color-contrast-light);
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-600);
+    width: 7.45rem;
+}
 @media screen and (min-width: 992px) {
     .login__button {
         width: 11.38rem;
         height: 3.25rem;
     }
+    .banner__description-button {
+        font-weight: var(--font-weight-400);
+        font-size: var(--font-size-16);
+        width: 8.13rem;
+    }
+    
 }
