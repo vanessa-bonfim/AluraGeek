@@ -8,8 +8,8 @@
     bottom: -1.9rem;
     width: 100%;
     transform: translate(-50%, -50%);
-    margin-left: 1rem;
-    margin-right: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 .banner__description-title {
     color: var(--color-contrast-light);
@@ -24,6 +24,9 @@
     padding-bottom: .5rem;
 }
 @media screen and (min-width: 576px) {
+    .banner__box-description {
+        bottom: -2.9rem;
+    }
     .banner__description-title {
         font-size: var(--font-size-32);
         padding-bottom: 1rem;
@@ -35,8 +38,8 @@
 }
 @media screen and (min-width: 768px) {
     .banner__box-description {
-        margin-left: 2rem;
-        margin-right: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
     .banner__description-title {
         font-size: var(--font-size-52);
@@ -47,7 +50,7 @@
 }
 @media screen and (min-width: 992px) {
     .banner__box-description {
-        margin-left: 9.5rem;
-        margin-right: 9.5rem;
+        padding-left: 9.5rem;
+        padding-right: 9.5rem;
     }
 }

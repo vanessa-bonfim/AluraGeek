@@ -1,5 +1,4 @@
 .starwars {
-    margin-top: 1rem;
     padding-bottom: 2rem;
 }
 
@@ -80,7 +79,6 @@
         width: 9.75rem;
     }
     .starwars {
-        margin-top: 2rem;
         padding-bottom: 4rem;
     }
 }
@@ -88,9 +86,6 @@
 @media screen and (min-width: 950px) {
     .starwars__box-section-itens .starwars__box-item:nth-last-child(2) {
         display: block;
-    }
-    .starwars {
-        margin-top: 4rem;
     }
 }
 
@@ -102,7 +97,6 @@
     .starwars__box-image-product {
         width: 11.97rem;
     }
-
     .starwars__box-section-itens .starwars__box-item:nth-last-child(1) {
         display: block;
     }
@@ -117,13 +111,3 @@
         width: 10.96rem;
     }
 }
-
-/* @media screen and (min-width: 1500px) {
-    .starwars__box-item {
-        width: 12.5rem;
-    }
-
-    .starwars__box-image-product {
-        width: 12.5rem;
-    }
-} */

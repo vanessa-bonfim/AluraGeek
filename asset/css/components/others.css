@@ -97,7 +97,6 @@
     .others__box-image-product {
         width: 11.97rem;
     }
-
     .others__box-section-itens .others__box-item:nth-last-child(1) {
         display: block;
     }
@@ -112,13 +111,3 @@
         width: 10.96rem;
     }
 }
-
-/* @media screen and (min-width: 1500px) {
-    .others__box-item {
-        width: 12.5rem;
-    }
-
-    .others__box-image-product {
-        width: 12.5rem;
-    }
-} */

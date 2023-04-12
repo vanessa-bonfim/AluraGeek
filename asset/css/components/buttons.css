@@ -16,6 +16,11 @@
     width: 8.32rem;
 }
 
+.login__button:hover {
+   /*  color: var(--color-contrast-light); */
+    background-color: var(--color-hover-light);
+    cursor: pointer;
+}
 /* .button__container {
 
 } */
@@ -25,6 +30,10 @@
     font-size: var(--font-size-14);
     font-weight: var(--font-weight-600);
     width: 7.45rem;
+}
+.banner__description-button:hover { 
+    background-color: var(--color-hover-dark);
+    cursor: pointer;
 }
 @media screen and (min-width: 992px) {
     .login__button {

@@ -97,7 +97,6 @@
     .console__box-image-product {
         width: 11.97rem;
     }
-
     .console__box-section-itens .console__box-item:nth-last-child(1) {
         display: block;
     }
@@ -112,13 +111,3 @@
         width: 10.96rem;
     }
 }
-
-/* @media screen and (min-width: 1500px) {
-    .console__box-item {
-        width: 12.5rem;
-    }
-
-    .console__box-image-product {
-        width: 12.5rem;
-    }
-} */
