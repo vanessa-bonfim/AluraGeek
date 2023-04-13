@@ -1,0 +1,8 @@
+.contact__title{
+ font-size: var(--font-size-16);
+ font-weight: var(--font-weight-700);
+}
+
+.contact__input-span, .contact__textarea-span {
+    display: none;
+}

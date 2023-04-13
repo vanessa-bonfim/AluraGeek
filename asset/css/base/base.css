@@ -1,13 +1,15 @@
 @import url(_reset.css);
 @import url(_variables.css);
 
-.borda{
+.borda {
 	border: solid 1px red;
 }
-	.d-none {
-		display:none
-	}
-*{
+
+.d-none {
+	display: none
+}
+
+* {
 	box-sizing: border-box;
 }
 
@@ -21,7 +23,7 @@ body {
 .container {
 	padding-right: 1rem;
 	padding-left: 1rem;
-    width: 100%;
+	width: 100%;
 }
 
 .flex {
@@ -36,11 +38,19 @@ body {
 .flex--column {
 	flex-direction: column;
 }
+
 .flex--row {
 	flex-direction: row;
 }
+
 .flex--wrap {
 	flex-wrap: wrap;
+}
+
+.shadow-input {
+	border: none;
+	border-bottom: 1px solid #c8c8c8;
+	box-shadow: 0px 1px 0px #c8c8c8;
 }
 
 @media(min-width: 768px) {

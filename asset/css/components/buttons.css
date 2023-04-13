@@ -35,6 +35,18 @@
     background-color: var(--color-hover-dark);
     cursor: pointer;
 }
+
+.contact__button-container {
+    margin-top: .5rem;
+}
+.contact__button {
+    background-color: var(--color-primary);
+    color: var(--color-contrast-light);
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-600);
+    width: 9.438rem;
+    padding: 0;
+}
 @media screen and (min-width: 992px) {
     .login__button {
         width: 11.38rem;

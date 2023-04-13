@@ -1,5 +1,6 @@
 .banner {
     position: relative;
+    margin-bottom: 1rem;
 }
 .banner__box-description {
     text-align: left;
@@ -37,6 +38,9 @@
     }
 }
 @media screen and (min-width: 768px) {
+    .banner {
+        margin-bottom: 2rem;
+    }
     .banner__box-description {
         padding-left: 2rem;
         padding-right: 2rem;
@@ -49,6 +53,9 @@
     }
 }
 @media screen and (min-width: 992px) {
+    .banner {
+        margin-bottom: 4rem;
+    }
     .banner__box-description {
         padding-left: 9.5rem;
         padding-right: 9.5rem;

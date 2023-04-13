@@ -1,0 +1,11 @@
+.by-develop {
+    background-color: var(--cor-contraste-claro);
+    height: 6.4rem;
+}
+
+.by-develop__paragraph {
+    text-align: center;
+    color: var(--cor-contraste-escuro);
+    font-size: var(--fonte-peso-500);
+    font-size: var(--fonte-tamanho-16);
+}

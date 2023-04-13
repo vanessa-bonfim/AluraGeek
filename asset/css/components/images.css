@@ -1,11 +1,9 @@
 .brand {
     width: 6.3rem;
 }
-
 .glass {
     width: 1.1rem;
 }
-
 .banner__image {
     background-image: url(../../img/png/mushroon.png);
     background-repeat: no-repeat;
@@ -13,6 +11,9 @@
     height: 190px;
     width: 100%;
     background-size:cover;
+}
+.nav-footer__brand {
+    width: 11rem;
 }
 @media screen and (min-width: 576px) {
     .glass {
