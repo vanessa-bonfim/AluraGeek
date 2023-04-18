@@ -1,0 +1,10 @@
+.header-login__box {
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (min-width: 576px) {
+    .header {
+        justify-content: flex-start;
+    }
+}

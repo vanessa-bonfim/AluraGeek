@@ -8,22 +8,21 @@
     align-self: center;
     text-align: center;
 }
+/* .header__button-container {
 
-.login__button {
+} */
+.header__login-button {
     color: var(--color-primary);
     font-weight: var(--font-weight-600);
     border: solid 1px var(--color-primary);
     width: 8.32rem;
 }
 
-.login__button:hover {
-   /*  color: var(--color-contrast-light); */
+.header__login-button:hover {
+    /*  color: var(--color-contrast-light); */
     background-color: var(--color-hover-light);
     cursor: pointer;
 }
-/* .button__container {
-
-} */
 .banner__description-button {
     background-color: var(--color-primary);
     color: var(--color-contrast-light);
@@ -31,7 +30,8 @@
     font-weight: var(--font-weight-600);
     width: 7.45rem;
 }
-.banner__description-button:hover { 
+
+.banner__description-button:hover {
     background-color: var(--color-hover-dark);
     cursor: pointer;
 }
@@ -39,6 +39,7 @@
 .contact__button-container {
     margin-top: .5rem;
 }
+
 .contact__button {
     background-color: var(--color-primary);
     color: var(--color-contrast-light);
@@ -47,15 +48,39 @@
     width: 9.438rem;
     padding: 0;
 }
-@media screen and (min-width: 992px) {
+
+/*PAGE LOGIN*/
+.login__button {
+    background-color: var(--color-primary);
+    color: var(--color-contrast-light);
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-600);
+    width: 109px;
+}
+@media screen and (min-width: 576px) {
     .login__button {
+        
+        width: 150px;
+    }
+   /*  .login__input {
+        width: 310px;
+    } */
+}
+
+@media screen and (min-width: 992px) {
+    .header__login-button {
         width: 11.38rem;
         height: 3.25rem;
     }
+
     .banner__description-button {
         font-weight: var(--font-weight-400);
         font-size: var(--font-size-16);
         width: 8.13rem;
     }
-    
+    /*PAGE LOGIN*/
+    .login__button { 
+        width: 423px;
+        height: 62px;
+    }
 }

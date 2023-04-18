@@ -23,6 +23,7 @@
 .starwars__box-section-itens {
     gap: 1rem;
     justify-content: flex-start;
+    /* flex-grow:1; */
 }
 
 .starwars__box-section-itens .starwars__box-item:nth-last-child(-n+2) {

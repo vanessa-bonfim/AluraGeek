@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN | AluraGeek</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/asset/css/base/base.css">
+    <link rel="stylesheet" href="/asset/css/login.css">
+    <link rel="stylesheet" href="/asset/css/components/header.css">
+    <link rel="stylesheet" href="/asset/css/components/header-login.css">
+    <link rel="stylesheet" href="/asset/css/components/login.css">
+    <link rel="stylesheet" href="/asset/css/components/images.css">
+    <link rel="stylesheet" href="/asset/css/components/inputs.css">
+    <link rel="stylesheet" href="/asset/css/components/buttons.css">
+
+    <link rel="stylesheet" href="/asset/css/components/nav-footer.css">
+    <link rel="stylesheet" href="/asset/css/components/contact.css">
+    <link rel="stylesheet" href="/asset/css/components/by-develop.css">
+</head>
+
+<body>
+    <header>
+        <div class="borda container header flex">
+            <div class="borda header__box-image">
+                <img class="brand" src="../asset/img/svg/logo.svg" alt="Brand AluraGeek">
+            </div>
+            <div class="borda .header-login__box flex">
+                <div class="flex">
+                    <div class="borda input__container input-search__container">
+                        <input class="borda input input-search" type="search" name="search" id="search"
+                            placeholder="O que deseja encontar?" data-tipo="">
+                    </div>
+                    <div class="glass__container">
+                        <img class="glass" src="../asset/img/svg/magnifyingGlass.svg" alt="Search">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+       <section>
+        <div class="borda login container">
+            <form class="borda login__form flex flex--center flex--column" action="">
+                <h2 class="borda login__title">Iniciar Sessão</h2>
+                <fieldset class="borda login__input-container flex flex--column">
+                    <input name="email" class="borda shadow-input input login__input" type="email" placeholder="Escreva seu email" required>
+                    <label class="borda login__input-label" for="email">Escreva seu email</label>
+                    <span class="borda login__input-span">Este campo não pode estar vazio.</span>
+                </fieldset>
+                <fieldset class="borda login__input-container flex flex--column">
+                    <input name="password" class="borda shadow-input input login__input" type="password" placeholder="Escreva sua senha" required>
+                    <label class="borda login__input-label" for="password">Escreva sua senha</label>
+                    <span class="borda login__input-span">Este campo não pode estar vazio.</span>
+                </fieldset>
+                <div class="borda login__button-container">
+                    <button class=" borda button login__button">Entrar</button>
+                </div>
+            </form>
+        </div>
+       </section>
+    </main>
+    <footer>
+        <div class="container box-info-footer flex flex--column">
+            <div class="borda nav-footer">
+                <nav class="borda nav-footer__box flex flex--column flex--center">
+                    <div class="borda nav-footer__box-brand">
+                        <img class="nav-footer__brand" src="../asset/img/svg/logo.svg" alt="Brand AluraGeek">
+                    </div>
+                    <ul class="borda nav-footer__box-itens">
+                        <li class="nav-footer__item"><a href="#">Quem somos nós</a></li>
+                        <li class="nav-footer__item"><a href="#">Política de privacidades</a></li>
+                        <li class="nav-footer__item"><a href="#">Programa fidelidade</a></li>
+                        <li class="nav-footer__item"><a href="#">Nossas lojas</a></li>
+                        <li class="nav-footer__item"><a href="#">Quero ser franqueado</a></li>
+                        <li class="nav-footer__item"><a href="#">Anuncie aqui</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="borda contact">
+                <form class="borda contact__form flex flex--column" action="">
+                    <h2 class="borda contact__title">Fale conosco</h2>
+                    <fieldset class="borda contact__input-container flex flex--column">
+                        <input name="subject" class="borda shadow-input input contact__input" type="text" placeholder="Assunto" required>
+                        <label class="borda contact__input-label" for="subject">Assunto</label>
+                        <span class="borda contact__input-span">Este campo não pode estar vazio.</span>
+                    </fieldset>
+                    <fieldset class="borda contact__input-container flex flex--column">
+                        <textarea name="messege" class="borda shadow-input contact__textarea" placeholder="Mensagem" required></textarea>
+                        <label class="borda contact__textarea-label" for="messege">Mensagem</label>
+                        <span class="borda contact__textarea-span">Este campo não pode estar vazio.</span>
+                    </fieldset>
+                    <div class="borda contact__button-container">
+                        <button class=" borda button contact__button">Enviar mensagem</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="by-develop flex flex--column flex--center">
+            <div class="borda by-develop__box">
+                <p class="by-develop__paragraph">Desenvolvido por Vanessa Bonfim</p>
+                <p class="by-develop__paragraph">2023</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

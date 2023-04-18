@@ -1,0 +1,31 @@
+.login {
+    margin-top: 97px;
+    margin-bottom: 76px;
+}
+.login__title {
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-700);
+    margin-bottom: 1rem;
+}
+
+.login__input-span,
+.login__textarea-span {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .login {
+        margin-top: 45px;
+        margin-bottom: 73px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .login {
+        margin-top: 92px;
+        margin-bottom: 91px;
+    }
+    .login__title {
+        font-size: var(--font-size-18);
+        margin-bottom: 1.56rem;
+    }
+}
