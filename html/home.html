@@ -11,7 +11,7 @@
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/asset/css/base/base.css">
-    <link rel="stylesheet" href="/asset/css/home.css">
+    <link rel="stylesheet" href="/asset/css/home-page.css">
     <link rel="stylesheet" href="/asset/css/components/header.css">
     <link rel="stylesheet" href="/asset/css/components/images.css">
     <link rel="stylesheet" href="/asset/css/components/inputs.css">
@@ -33,7 +33,7 @@
             </div>
             <div class="borda header__box flex">
                 <div class="borda header__button-container">
-                    <button class="button header__login-button">Login</button>
+                    <a href="login.html"><button class="button header__login-button">Login</button></a>
                 </div>
                 <div class="flex">
                     <div class="borda input__container input-search__container">
@@ -53,10 +53,10 @@
             <div class="borda banner__box-description">
                 <h2 class="banner__description-title">Dezembro Promocional</h2>
                 <p class="banner__description-paragraph">Produtos selecionados com 33% de desconto</p>
-                <button class="button banner__description-button">Ver Consoles</button>
+                <a href="#console"><button class="button banner__description-button">Ver Consoles</button></a>
             </div>
         </section>
-        <section class="borda starwars container flex flex--column">
+        <section id="starwars" class="borda starwars container flex flex--column">
             <div class="borda starwars__box-section-title flex flex--row">
                 <div class="borda starwars__box-title">
                     <h2 class="borda starwars__title">Star Wars</h2>
@@ -69,7 +69,7 @@
             <div class="borda starwars__box-section-itens flex flex--wrap">
                 <div class="borda starwars__box-item">
                     <div class="borda starwars__box-image-product">
-                        <img class="starwars__box-image-product" src="/asset/img/svg/starwars1.svg"
+                        <img class="starwars__image-product" src="/asset/img/svg/starwars1.svg"
                             alt="Product Star Wars 1">
                     </div>
                     <div class="borda starwars__box-product-describe">
@@ -80,7 +80,7 @@
                 </div>
                 <div class="borda starwars__box-item">
                     <div class="borda starwars__box-image-product">
-                        <img class="starwars__box-image-product" src="/asset/img/svg/starwars2.svg"
+                        <img class="starwars__image-product" src="/asset/img/svg/starwars2.svg"
                             alt="Product Star Wars 2">
                     </div>
                     <div class="borda starwars__box-product-describe">
@@ -91,7 +91,7 @@
                 </div>
                 <div class="borda starwars__box-item">
                     <div class="borda starwars__box-image-product">
-                        <img class="starwars__box-image-product" src="/asset/img/svg/starwars3.svg"
+                        <img class="starwars__image-product" src="/asset/img/svg/starwars3.svg"
                             alt="Product Star Wars 3">
                     </div>
                     <div class="borda starwars__box-product-describe">
@@ -102,7 +102,7 @@
                 </div>
                 <div class="borda starwars__box-item">
                     <div class="borda starwars__box-image-product">
-                        <img class="starwars__box-image-product" src="/asset/img/svg/starwars4.svg"
+                        <img class="starwars__image-product" src="/asset/img/svg/starwars4.svg"
                             alt="Product Star Wars 4">
                     </div>
                     <div class="borda starwars__box-product-describe">
@@ -113,7 +113,7 @@
                 </div>
                 <div class="borda starwars__box-item">
                     <div class="borda starwars__box-image-product">
-                        <img class="starwars__box-image-product" src="/asset/img/svg/starwars5.svg"
+                        <img class="starwars__image-product" src="/asset/img/svg/starwars5.svg"
                             alt="Product Star Wars 5">
                     </div>
                     <div class="borda starwars__box-product-describe">
@@ -124,7 +124,7 @@
                 </div>
                 <div class="borda starwars__box-item">
                     <div class="borda starwars__box-image-product">
-                        <img class="starwars__box-image-product" src="/asset/img/svg/starwars6.svg"
+                        <img class="starwars__image-product" src="/asset/img/svg/starwars6.svg"
                             alt="Product Star Wars 6">
                     </div>
                     <div class="borda starwars__box-product-describe">
@@ -135,7 +135,7 @@
                 </div>
             </div>
         </section>
-        <section class="borda console container flex flex--column">
+        <section id="console" class="borda console container flex flex--column">
             <div class="borda console__box-section-title flex flex--row">
                 <div class="borda console__box-title">
                     <h2 class="borda console__title">Consoles</h2>
@@ -148,7 +148,7 @@
             <div class="borda console__box-section-itens flex flex--wrap">
                 <div class="borda console__box-item">
                     <div class="borda console__box-image-product">
-                        <img class="console__box-image-product" src="/asset/img/svg/console1.svg"
+                        <img class="console__image-product" src="/asset/img/svg/console1.svg"
                             alt="Product Console 1">
                     </div>
                     <div class="borda console__box-product-describe">
@@ -159,7 +159,7 @@
                 </div>
                 <div class="borda console__box-item">
                     <div class="borda console__box-image-product">
-                        <img class="console__box-image-product" src="/asset/img/svg/console2.svg"
+                        <img class="console__image-product" src="/asset/img/svg/console2.svg"
                             alt="Product Console 2">
                     </div>
                     <div class="borda console__box-product-describe">
@@ -170,7 +170,7 @@
                 </div>
                 <div class="borda console__box-item">
                     <div class="borda console__box-image-product">
-                        <img class="console__box-image-product" src="/asset/img/svg/console3.svg"
+                        <img class="console__image-product" src="/asset/img/svg/console3.svg"
                             alt="Product Console 3">
                     </div>
                     <div class="borda console__box-product-describe">
@@ -181,7 +181,7 @@
                 </div>
                 <div class="borda console__box-item">
                     <div class="borda console__box-image-product">
-                        <img class="console__box-image-product" src="/asset/img/svg/console4.svg"
+                        <img class="console__image-product" src="/asset/img/svg/console4.svg"
                             alt="Product Console 4">
                     </div>
                     <div class="borda console__box-product-describe">
@@ -192,7 +192,7 @@
                 </div>
                 <div class="borda console__box-item">
                     <div class="borda console__box-image-product">
-                        <img class="console__box-image-product" src="/asset/img/svg/console5.svg"
+                        <img class="console__image-product" src="/asset/img/svg/console5.svg"
                             alt="Product Console 5">
                     </div>
                     <div class="borda console__box-product-describe">
@@ -203,7 +203,7 @@
                 </div>
                 <div class="borda console__box-item">
                     <div class="borda console__box-image-product">
-                        <img class="console__box-image-product" src="/asset/img/svg/console6.svg"
+                        <img class="console__image-product" src="/asset/img/svg/console6.svg"
                             alt="Product Console 6">
                     </div>
                     <div class="borda console__box-product-describe">
@@ -214,7 +214,7 @@
                 </div>
             </div>
         </section>
-        <section class="borda others container flex flex--column">
+        <section id="others" class="borda others container flex flex--column">
             <div class="borda others__box-section-title flex flex--row">
                 <div class="borda others__box-title">
                     <h2 class="borda others__title">Diversos</h2>
@@ -227,7 +227,7 @@
             <div class="borda others__box-section-itens flex flex--wrap">
                 <div class="borda others__box-item">
                     <div class="borda others__box-image-product">
-                        <img class="others__box-image-product" src="/asset/img/svg/others1.svg" alt="Product others 1">
+                        <img class="others__image-product" src="/asset/img/svg/others1.svg" alt="Product others 1">
                     </div>
                     <div class="borda others__box-product-describe">
                         <h3 class="others__product-title">Produto XYZ</h3>
@@ -237,7 +237,7 @@
                 </div>
                 <div class="borda others__box-item">
                     <div class="borda others__box-image-product">
-                        <img class="others__box-image-product" src="/asset/img/svg/others2.svg" alt="Product others 2">
+                        <img class="others__image-product" src="/asset/img/svg/others2.svg" alt="Product others 2">
                     </div>
                     <div class="borda others__box-product-describe">
                         <h3 class="others__product-title">Produto XYZ</h3>
@@ -247,7 +247,7 @@
                 </div>
                 <div class="borda others__box-item">
                     <div class="borda others__box-image-product">
-                        <img class="others__box-image-product" src="/asset/img/svg/others3.svg" alt="Product others 3">
+                        <img class="others__image-product" src="/asset/img/svg/others3.svg" alt="Product others 3">
                     </div>
                     <div class="borda others__box-product-describe">
                         <h3 class="others__product-title">Produto XYZ</h3>
@@ -257,7 +257,7 @@
                 </div>
                 <div class="borda others__box-item">
                     <div class="borda others__box-image-product">
-                        <img class="others__box-image-product" src="/asset/img/svg/others4.svg" alt="Product others 4">
+                        <img class="others__image-product" src="/asset/img/svg/others4.svg" alt="Product others 4">
                     </div>
                     <div class="borda others__box-product-describe">
                         <h3 class="others__product-title">Produto XYZ</h3>
@@ -267,7 +267,7 @@
                 </div>
                 <div class="borda others__box-item">
                     <div class="borda others__box-image-product">
-                        <img class="others__box-image-product" src="/asset/img/svg/others5.svg" alt="Product others 5">
+                        <img class="others__image-product" src="/asset/img/svg/others5.svg" alt="Product others 5">
                     </div>
                     <div class="borda others__box-product-describe">
                         <h3 class="others__product-title">Produto XYZ</h3>
@@ -277,7 +277,7 @@
                 </div>
                 <div class="borda others__box-item">
                     <div class="borda others__box-image-product">
-                        <img class="others__box-image-product" src="/asset/img/svg/others6.svg" alt="Product others 6">
+                        <img class="others__image-product" src="/asset/img/svg/others6.svg" alt="Product others 6">
                     </div>
                     <div class="borda others__box-product-describe">
                         <h3 class="others__product-title">Produto XYZ</h3>
@@ -319,7 +319,7 @@
                         <span class="borda contact__textarea-span">Este campo não pode estar vazio.</span>
                     </fieldset>
                     <div class="borda contact__button-container">
-                        <button class=" borda button contact__button">Enviar mensagem</button>
+                        <button class="borda button contact__button">Enviar mensagem</button>
                     </div>
                 </form>
             </div>

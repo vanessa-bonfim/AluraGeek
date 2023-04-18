@@ -48,6 +48,11 @@
     width: 9.438rem;
     padding: 0;
 }
+.contact__button:hover {
+    /*  color: var(--color-contrast-light); */
+    background-color: var(--color-hover-dark);
+    cursor: pointer;
+}
 
 /*PAGE LOGIN*/
 .login__button {
@@ -57,14 +62,28 @@
     font-weight: var(--font-weight-600);
     width: 109px;
 }
+.login__button:hover {
+    /*  color: var(--color-contrast-light); */
+    background-color: var(--color-hover-dark);
+    cursor: pointer;
+}
+/*Products page*/
+.products__button{
+    background-color: var(--color-primary);
+    color: var(--color-contrast-light);
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-600);
+    width: 152px;
+}
+.products__button:hover {
+    /*  color: var(--color-contrast-light); */
+    background-color: var(--color-hover-dark);
+    cursor: pointer;
+}
 @media screen and (min-width: 576px) {
     .login__button {
-        
         width: 150px;
     }
-   /*  .login__input {
-        width: 310px;
-    } */
 }
 
 @media screen and (min-width: 992px) {

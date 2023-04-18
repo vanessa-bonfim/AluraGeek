@@ -14,6 +14,9 @@
     font-weight: var(--font-weight-500);
     font-size: var(--font-size-16);
 }
+.nav-footer__item:hover {
+    color: var(--color-contrast-medium);
+}
 @media screen and (min-width: 768px) {
     .box-info-footer {
         padding-top: 2rem;

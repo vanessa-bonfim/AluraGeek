@@ -36,7 +36,9 @@
 .console__box-image-product {
     width: 9.7rem;
 }
-
+.console__image-product {
+    width: 100%;
+}
 .console__product-title {
     font-size: var(--font-size-14);
     font-weight: var(--font-weight-500);

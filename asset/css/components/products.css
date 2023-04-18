@@ -1,0 +1,101 @@
+.products {
+    margin: 2rem 0rem;
+}
+
+.products__box-section-title {
+    align-items: flex-start;
+    line-height: 25px;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.products__image-product {
+    width: 100%;   
+}
+.products__title {
+    font-size: var(--font-size-22);
+    font-weight: var(--font-weight-700);
+    margin-bottom: 1rem;
+}
+
+.products__box-all-products-view {
+    color: var(--color-contrast-light);
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-700);
+}
+
+.products__box-section-itens {
+    gap: 1rem;
+    justify-content: flex-start;
+    /* flex-grow:1; */
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+.products__product-title {
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-500);
+    padding-top: .5rem;
+}
+
+.products__product-price {
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-700);
+    padding-top: .5rem;
+}
+
+.products__product-id {
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-500);
+    padding-top: .5rem;
+}
+
+.products__box-item {
+    width: 8.75rem;
+    position: relative;
+}
+.products__box-actions {
+    width: 60px;
+    justify-content: space-between;
+    align-self: flex-start;
+    position: absolute;
+    top: 11px;
+    right: 11px;
+    
+}
+.products__action-delete:hover, .products__action-edit:hover {
+    color: var(--color-hover-dark);
+}
+
+@media screen and (min-width: 576px) {
+    .products__box-section-title {
+       flex-direction: row;
+       justify-content: space-between;
+       align-items: center;
+    }
+    .products__title {
+        margin-bottom: 0;
+    }
+}
+@media screen and (min-width: 768px) {
+    .products__box-section-title, .products__box-section-itens {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+    .products__box-item {
+        width: 10.5rem;
+    }
+}
+@media screen and (min-width: 992px) {
+    .products {
+        margin: 4rem 0rem;
+    }
+    .products__box-item {
+        width: 10rem;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .products__box-item {
+        width: 11rem;
+    }
+}

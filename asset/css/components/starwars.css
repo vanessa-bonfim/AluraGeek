@@ -37,6 +37,9 @@
 .starwars__box-image-product {
     width: 9.7rem;
 }
+.starwars__image-product {
+    width: 100%;
+}
 
 .starwars__product-title {
     font-size: var(--font-size-14);
