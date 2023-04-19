@@ -5,32 +5,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOGIN | AluraGeek</title>
+    <title>REGISTRO PRODUTO | AluraGeek</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/asset/css/base/base.css">
-    <link rel="stylesheet" href="/asset/css/login-page.css">
+    <link rel="stylesheet" href="/asset/css/home-page.css">
     <link rel="stylesheet" href="/asset/css/components/header-home.css">
-    <link rel="stylesheet" href="/asset/css/components/header-login.css">
-    <link rel="stylesheet" href="/asset/css/components/login.css">
+    <link rel="stylesheet" href="/asset/css/components/header-register_product.css">
     <link rel="stylesheet" href="/asset/css/components/images.css">
     <link rel="stylesheet" href="/asset/css/components/inputs.css">
     <link rel="stylesheet" href="/asset/css/components/buttons.css">
-
+    <link rel="stylesheet" href="/asset/css/components/register_product.css">
     <link rel="stylesheet" href="/asset/css/components/nav-footer.css">
     <link rel="stylesheet" href="/asset/css/components/contact.css">
     <link rel="stylesheet" href="/asset/css/components/home-by-develop.css">
+    <link rel="stylesheet" href="/asset/css/components/register_product-by-develop.css">
 </head>
 
 <body>
     <header>
-        <div class="borda container header flex">
+        <div class="borda container header header__register-product flex">
             <div class="borda header__box-image">
                 <a href="home.html"><img class="brand" src="../asset/img/svg/logo.svg" alt="Brand AluraGeek"></a>
             </div>
-            <div class="borda header-login__box flex">
+            <div class="borda header__box flex">
+                <div class="borda header__button-container">
+                    <a href="#"><button class="button header__register-product-button">Menu administrador</button></a>
+                </div>
                 <div class="flex">
                     <div class="borda input__container input-search__container">
                         <input class="borda input input-search" type="search" name="search" id="search"
@@ -44,26 +47,48 @@
         </div>
     </header>
     <main>
-       <section>
-        <div class="borda login container">
-            <form class="borda login__form flex flex--center flex--column" action="">
-                <h2 class="borda login__title">Iniciar Sessão</h2>
-                <fieldset class="borda login__input-container flex flex--column">
-                    <input name="email" class="borda shadow-input input login__input" type="email" placeholder="Escreva seu email" required>
-                    <label class="borda login__input-label" for="email">Escreva seu email</label>
-                    <span class="borda login__input-span">Este campo não pode estar vazio.</span>
+        <div class="borda register-product container flex flex--center">
+            <form class="borda register-product__form flex flex--column" action="">
+                <h2 class="borda register-product__title">
+                    Adicionar novo produto
+                </h2>
+                <fieldset class="borda register-product__input-container flex flex--column">
+                    <input name="image" class="borda shadow-input input register-product__input" type="text"
+                        placeholder="URL da imagem" required>
+                    <label class="borda register-product__input-label" for="image">URL da imagem</label>
+                    <span class="borda register-product__input-span">Este campo não pode estar vazio.</span>
                 </fieldset>
-                <fieldset class="borda login__input-container flex flex--column">
-                    <input name="password" class="borda shadow-input input login__input" type="password" placeholder="Escreva sua senha" required>
-                    <label class="borda login__input-label" for="password">Escreva sua senha</label>
-                    <span class="borda login__input-span">Este campo não pode estar vazio.</span>
+                <fieldset class="borda register-product__input-container flex flex--column">
+                    <input name="category" class="borda shadow-input input register-product__input" type="text"
+                        placeholder="Categoria" required>
+                    <label class="borda register-product__input-label" for="category">Categoria</label>
+                    <span class="borda register-product__input-span">Este campo não pode estar vazio.</span>
                 </fieldset>
-                <div class="borda login__button-container">
-                    <button class=" borda button login__button">Entrar</button>
+                <fieldset class="borda register-product__input-container flex flex--column">
+                    <input name="productName" class="borda shadow-input input register-product__input" type="text"
+                        placeholder="Nome do produto" required>
+                    <label class="borda register-product__input-label" for="productName">Nome do produto</label>
+                    <span class="borda register-product__input-span">Este campo não pode estar vazio.</span>
+                </fieldset>
+                <fieldset class="borda register-product__input-container flex flex--column">
+                    <input name="productPrice" class="borda shadow-input input register-product__input" type="text"
+                        placeholder="Preço do produto" required>
+                    <label class="borda register-product__input-label" for="productPrice">Preço do produto</label>
+                    <span class="borda register-product__input-span">Este campo não pode estar vazio.</span>
+                </fieldset>
+                <fieldset class="borda register-product__textarea-container flex flex--column">
+                    <textarea name="productDescription" class="borda shadow-input input register-product__textarea"
+                        placeholder="Descrição do produto" required></textarea>
+                    <label class="borda register-product__textarea-label" for="productDescription">Descrição do
+                        produto</label>
+                    <span class="borda register-product__textarea-span">Este campo não pode estar vazio.</span>
+                </fieldset>
+                <div class="borda register-product__button-container">
+                    <button class=" borda button register-product__button">Adicionar produto</button>
                 </div>
             </form>
         </div>
-       </section>
+        </section>
     </main>
     <footer>
         <div class="container box-info-footer flex flex--column">
@@ -86,12 +111,14 @@
                 <form class="borda contact__form flex flex--column" action="">
                     <h2 class="borda contact__title">Fale conosco</h2>
                     <fieldset class="borda contact__input-container flex flex--column">
-                        <input name="subject" class="borda shadow-input input contact__input" type="text" placeholder="Assunto" required>
+                        <input name="subject" class="borda shadow-input input contact__input" type="text"
+                            placeholder="Assunto" required>
                         <label class="borda contact__input-label" for="subject">Assunto</label>
                         <span class="borda contact__input-span">Este campo não pode estar vazio.</span>
                     </fieldset>
                     <fieldset class="borda contact__input-container flex flex--column">
-                        <textarea name="messege" class="borda shadow-input contact__textarea" placeholder="Mensagem" required></textarea>
+                        <textarea name="messege" class="borda shadow-input contact__textarea" placeholder="Mensagem"
+                            required></textarea>
                         <label class="borda contact__textarea-label" for="messege">Mensagem</label>
                         <span class="borda contact__textarea-span">Este campo não pode estar vazio.</span>
                     </fieldset>
@@ -101,7 +128,7 @@
                 </form>
             </div>
         </div>
-        <div class="by-develop flex flex--column flex--center">
+        <div class="by-develop register-product__by-develop flex flex--column flex--center">
             <div class="borda by-develop__box">
                 <p class="by-develop__paragraph">Desenvolvido por Vanessa Bonfim</p>
                 <p class="by-develop__paragraph">2023</p>
@@ -109,5 +136,7 @@
         </div>
     </footer>
 </body>
+<script src="https://github.com/codermarcos/simple-mask-money/releases/download/v3.0.0/simple-mask-money.js">
+</script>
 
 </html>

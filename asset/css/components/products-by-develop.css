@@ -1,0 +1,9 @@
+.products_by-develop {
+    margin-bottom: 0.9rem;
+}
+
+@media screen and (min-width: 576px) {
+    .products_by-develop {
+        margin-bottom: 0rem;
+    }
+}

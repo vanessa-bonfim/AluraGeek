@@ -1,0 +1,26 @@
+
+.register-product__form {
+    align-items: self-start;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 704px;
+}
+.register-product__title {
+    font-size: var(--font-size-22);
+    font-weight: var(--font-weight-700);
+    text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+    .register-product__form {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+@media screen and (min-width: 992px) {
+    .register-product__form {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+}

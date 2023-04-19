@@ -3,6 +3,3 @@
  font-weight: var(--font-weight-700);
 }
 
-.contact__input-span, .contact__textarea-span {
-    display: none;
-}
