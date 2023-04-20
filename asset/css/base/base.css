@@ -1,7 +1,7 @@
-@import url(_reset.css);
-@import url(_variables.css);
+@import url(../../css/base/_reset.css);
+@import url(../../css/base/_variables.css);
 /*reset*/
-html, body, div, span, applet, object, iframe,
+/* html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -78,9 +78,9 @@ textarea {
 	font-size: inherit;
 	font-weight: inherit;
 	font-family: inherit;
-}
+} */
 /*Variable*/
-:root {
+/* :root {
     --font-family-body: 'Raleway', sans-serif;
     --font-size-12:0.75rem;
     --font-size-14: 0.88rem;
@@ -107,7 +107,7 @@ textarea {
     --color-hover-dark: #5595E9;
     --color-warning: #ec6b6b;
     --color-input-shadow: #c8c8c8;
-}
+} */
 
 /* .borda {
 	border: solid 1px red;
