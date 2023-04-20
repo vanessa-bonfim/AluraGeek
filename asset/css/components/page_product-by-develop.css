@@ -1,0 +1,14 @@
+.page_product-by-develop {
+    margin-bottom: 158px;
+}
+
+@media screen and (min-width: 768px) {
+    .page_product-by-develop {
+        margin-bottom: 98px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .page_product-by-develop {
+        margin-bottom: 0;
+    }
+}

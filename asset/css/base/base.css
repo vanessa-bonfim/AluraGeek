@@ -1,9 +1,9 @@
 @import url(_reset.css);
 @import url(_variables.css);
 
-.borda {
+/* .borda {
 	border: solid 1px red;
-}
+} */
 
 .d-none {
 	display: none

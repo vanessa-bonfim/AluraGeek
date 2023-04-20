@@ -15,6 +15,10 @@
 .nav-footer__brand {
     width: 11rem;
 }
+/*Product*/
+.product__image {
+    width: 100%;    
+}
 @media screen and (min-width: 576px) {
     .glass {
         display: none;
