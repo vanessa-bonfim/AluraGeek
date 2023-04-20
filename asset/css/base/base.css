@@ -1,5 +1,113 @@
 @import url(_reset.css);
 @import url(_variables.css);
+/*reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+img {
+	width: inherit;
+}
+
+button {
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	font-weight: inherit;
+	padding: 0;
+	border: none;
+	background-color: unset;
+}
+
+input {
+	border: none;
+	color: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	font-family: inherit;
+}
+
+textarea {
+	border: none;
+	color: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	font-family: inherit;
+}
+/*Variable*/
+:root {
+    --font-family-body: 'Raleway', sans-serif;
+    --font-size-12:0.75rem;
+    --font-size-14: 0.88rem;
+    --font-size-16: 1rem;
+    --font-size-18: 1.15rem;
+    --font-size-22: 1.38rem;
+    --font-size-32: 2rem;
+    --font-size-52: 3.25rem;
+    --font-weight-400: 400;
+    --font-weight-500: 500;
+    --font-weight-600: 600;
+    --font-weight-700: 700;
+
+    
+    --color-primary: #2A7AE4;
+    --color-secondary: #E5E5E5;
+    --color-contrast-dark: #464646;
+    --color-contrast-medium: #A2A2A2;
+    --color-contrast-light: #fff;
+    
+    --color-input-medium: #F5F5F5;
+    --background-colorful: #EAF2FD;
+    --color-hover-light: #D4E4FA;
+    --color-hover-dark: #5595E9;
+    --color-warning: #ec6b6b;
+    --color-input-shadow: #c8c8c8;
+}
 
 /* .borda {
 	border: solid 1px red;
