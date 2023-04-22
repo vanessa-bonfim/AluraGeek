@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,7 +21,6 @@
     <link rel="stylesheet" href="./asset/css/components/contact.css">
     <link rel="stylesheet" href="./asset/css/components/home-by-develop.css">
 </head>
-
 <body>
     <header>
         <div class="borda container header flex">
@@ -45,17 +43,17 @@
     <main>
        <section>
         <div class="borda login container">
-            <form class="borda login__form flex flex--center flex--column" action="">
+            <form class="borda login__form flex flex--center flex--column" method="post" action="./products.html" data-form>
                 <h2 class="borda login__title">Iniciar Sessão</h2>
                 <fieldset class="borda login__input-container flex flex--column">
-                    <input name="email" class="borda shadow-input input login__input" type="email" placeholder="Escreva seu email" required>
+                    <input name="email" class="borda shadow-input input login__input" placeholder="Escreva seu email" type="email" data-type="email" required>
                     <label class="borda login__input-label" for="email">Escreva seu email</label>
-                    <span class="borda login__input-span">Este campo não pode estar vazio.</span>
+                    <span class="borda input-message-error">Este campo não pode estar vazio.</span>
                 </fieldset>
                 <fieldset class="borda login__input-container flex flex--column">
-                    <input name="password" class="borda shadow-input input login__input" type="password" placeholder="Escreva sua senha" required>
+                    <input name="password" class="borda shadow-input input login__input" placeholder="Escreva sua senha" type="password" data-type="password" required>
                     <label class="borda login__input-label" for="password">Escreva sua senha</label>
-                    <span class="borda login__input-span">Este campo não pode estar vazio.</span>
+                    <span class="borda input-message-error">Este campo não pode estar vazio.</span>
                 </fieldset>
                 <div class="borda login__button-container">
                     <button class=" borda button login__button">Entrar</button>
@@ -82,20 +80,22 @@
                 </nav>
             </div>
             <div class="borda contact">
+                <h2 class="borda contact__title">Fale conosco</h2>
                 <form class="borda contact__form flex flex--column" action="">
-                    <h2 class="borda contact__title">Fale conosco</h2>
-                    <fieldset class="borda contact__input-container flex flex--column">
-                        <input name="subject" class="borda shadow-input input contact__input" type="text" placeholder="Assunto" required>
-                        <label class="borda contact__input-label" for="subject">Assunto</label>
-                        <span class="borda contact__input-span">Este campo não pode estar vazio.</span>
-                    </fieldset>
-                    <fieldset class="borda contact__input-container flex flex--column">
-                        <textarea name="messege" class="borda shadow-input contact__textarea" placeholder="Mensagem" required></textarea>
-                        <label class="borda contact__textarea-label" for="messege">Mensagem</label>
-                        <span class="borda contact__textarea-span">Este campo não pode estar vazio.</span>
+                    <fieldset>
+                        <div class="borda contact__input-container flex flex--column">
+                            <input id="name" name="name" class="borda shadow-input input contact__input" type="text" placeholder="Nome" data-type="name" required>
+                            <label class="borda contact__input-label" for="name">Nome</label>
+                            <span class="borda input-message-error">Este campo não pode estar vazio.</span>
+                        </div>
+                        <div class="borda contact__input-container flex flex--column">
+                            <textarea id="text" name="text" class="borda shadow-input contact__textarea" placeholder="Escreva sua ensagem" data-type="text" required></textarea>
+                            <label class="borda contact__textarea-label" for="text">Escreva sua mensagem</label>
+                            <span class="borda input-message-error">Este campo não pode estar vazio.</span>
+                        </div>
                     </fieldset>
                     <div class="borda contact__button-container">
-                        <button class=" borda button contact__button">Enviar mensagem</button>
+                        <button class="borda button contact__button">Enviar mensagem</button>
                     </div>
                 </form>
             </div>
@@ -107,6 +107,9 @@
             </div>
         </div>
     </footer>
+    <script src="./js/validation.js" type="module"></script>
+    <script src="./utils/storage-util.js"></script>
+    <script src="./services/users-service.js"></script>
+    <script src="./controllers/users-controller.js"></script>
 </body>
-
 </html>

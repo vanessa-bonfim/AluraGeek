@@ -47,41 +47,43 @@
         </div>
     </header>
     <main>
-        <div class="borda register-product container flex flex--center">
-            <form class="borda register-product__form flex flex--column" action="">
+        <div class="borda register-product container flex flex--center flex--column">
+            <div class="borda register-product__box-title flex">
                 <h2 class="borda register-product__title">
                     Adicionar novo produto
                 </h2>
+            </div>
+            <form class="borda register-product__form flex flex--column" method="POST" action="" data-form>
                 <fieldset class="borda register-product__input-container flex flex--column">
-                    <input name="image" class="borda shadow-input input register-product__input" type="text"
-                        placeholder="URL da imagem" required>
+                    <input id="image" name="image" class="borda shadow-input input register-product__input" type="text"
+                        placeholder="URL da imagem" data-type="image" required>
                     <label class="borda register-product__input-label" for="image">URL da imagem</label>
-                    <span class="borda register-product__input-span">Este campo não pode estar vazio.</span>
+                    <span class="borda input-message-error">Este campo não pode estar vazio.</span>
                 </fieldset>
                 <fieldset class="borda register-product__input-container flex flex--column">
-                    <input name="category" class="borda shadow-input input register-product__input" type="text"
-                        placeholder="Categoria" required>
+                    <input id="category" name="category" class="borda shadow-input input register-product__input" type="text"
+                        placeholder="Categoria" data-type="category" required>
                     <label class="borda register-product__input-label" for="category">Categoria</label>
-                    <span class="borda register-product__input-span">Este campo não pode estar vazio.</span>
+                    <span class="borda input-message-error">Este campo não pode estar vazio.</span>
                 </fieldset>
                 <fieldset class="borda register-product__input-container flex flex--column">
-                    <input name="productName" class="borda shadow-input input register-product__input" type="text"
-                        placeholder="Nome do produto" required>
+                    <input id="productName" name="productName" class="borda shadow-input input register-product__input" type="text"
+                        placeholder="Nome do produto" data-type="productName" required>
                     <label class="borda register-product__input-label" for="productName">Nome do produto</label>
-                    <span class="borda register-product__input-span">Este campo não pode estar vazio.</span>
+                    <span class="borda input-message-error">Este campo não pode estar vazio.</span>
                 </fieldset>
                 <fieldset class="borda register-product__input-container flex flex--column">
-                    <input name="productPrice" class="borda shadow-input input register-product__input" type="text"
-                        placeholder="Preço do produto" required>
+                    <input id="productPrice" name="productPrice" class="borda shadow-input input register-product__input" type="text"
+                        placeholder="Preço do produto" data-type="productPrice" required>
                     <label class="borda register-product__input-label" for="productPrice">Preço do produto</label>
-                    <span class="borda register-product__input-span">Este campo não pode estar vazio.</span>
+                    <span class="borda input-message-error">Este campo não pode estar vazio.</span>
                 </fieldset>
                 <fieldset class="borda register-product__textarea-container flex flex--column">
-                    <textarea name="productDescription" class="borda shadow-input input register-product__textarea"
-                        placeholder="Descrição do produto" required></textarea>
-                    <label class="borda register-product__textarea-label" for="productDescription">Descrição do
+                    <textarea id="productDescription" name="productDescription" class="borda shadow-input input register-product__textarea"
+                        placeholder="Descrição do produto" data-type="productDescription" required></textarea>
+                    <label class="borda register-product__input-label" for="productDescription">Descrição do
                         produto</label>
-                    <span class="borda register-product__textarea-span">Este campo não pode estar vazio.</span>
+                    <span class="borda input-message-error">Este campo não pode estar vazio.</span>
                 </fieldset>
                 <div class="borda register-product__button-container">
                     <button class=" borda button register-product__button">Adicionar produto</button>
@@ -108,22 +110,22 @@
                 </nav>
             </div>
             <div class="borda contact">
+                <h2 class="borda contact__title">Fale conosco</h2>
                 <form class="borda contact__form flex flex--column" action="">
-                    <h2 class="borda contact__title">Fale conosco</h2>
-                    <fieldset class="borda contact__input-container flex flex--column">
-                        <input name="subject" class="borda shadow-input input contact__input" type="text"
-                            placeholder="Assunto" required>
-                        <label class="borda contact__input-label" for="subject">Assunto</label>
-                        <span class="borda contact__input-span">Este campo não pode estar vazio.</span>
-                    </fieldset>
-                    <fieldset class="borda contact__input-container flex flex--column">
-                        <textarea name="messege" class="borda shadow-input contact__textarea" placeholder="Mensagem"
-                            required></textarea>
-                        <label class="borda contact__textarea-label" for="messege">Mensagem</label>
-                        <span class="borda contact__textarea-span">Este campo não pode estar vazio.</span>
+                    <fieldset>
+                        <div class="borda contact__input-container flex flex--column">
+                            <input id="name" name="name" class="borda shadow-input input contact__input" type="text" placeholder="Nome" data-type="name" required>
+                            <label class="borda contact__input-label" for="name">Nome</label>
+                            <span class="borda input-message-error">Este campo não pode estar vazio.</span>
+                        </div>
+                        <div class="borda contact__input-container flex flex--column">
+                            <textarea id="text" name="text" class="borda shadow-input contact__textarea" placeholder="Escreva sua ensagem" data-type="text" required></textarea>
+                            <label class="borda contact__textarea-label" for="text">Escreva sua mensagem</label>
+                            <span class="borda input-message-error">Este campo não pode estar vazio.</span>
+                        </div>
                     </fieldset>
                     <div class="borda contact__button-container">
-                        <button class=" borda button contact__button">Enviar mensagem</button>
+                        <button class="borda button contact__button">Enviar mensagem</button>
                     </div>
                 </form>
             </div>
@@ -135,8 +137,12 @@
             </div>
         </div>
     </footer>
+    <script src="https://github.com/codermarcos/simple-mask-money/releases/download/v3.0.0/simple-mask-money.js">
+    </script>
+    <script src="./validators/validator.js"></script>
+    <script src="./validators/products-validator.js"></script>
+    <script src="./controllers/products-controller.js"></script>
+    <script src="./services/products-service.js"></script>
 </body>
-<script src="https://github.com/codermarcos/simple-mask-money/releases/download/v3.0.0/simple-mask-money.js">
-</script>
 
 </html>

@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "role": "admin",
+      "email": "admin@alura.com",
+      "password": 12345
+    },
+    {
+      "id": 2,
+      "role": "customer",
+      "email": "customer@alura.com",
+      "password": 12345
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Produto 1",
+      "price": 60,
+      "decription": "my description 1"
+    },
+    {
+      "id": 2,
+      "title": "Produto 2",
+      "price": 60,
+      "decription": "my description 2"
+    },
+    {
+      "id": 3,
+      "title": "Produto 3",
+      "price": 60,
+      "decription": "my description 3"
+    }
+  ]
+}
