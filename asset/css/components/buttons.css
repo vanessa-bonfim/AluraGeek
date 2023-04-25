@@ -64,6 +64,7 @@
     font-size: var(--font-size-14);
     font-weight: var(--font-weight-600);
     width: 109px;
+    margin-top: .25rem;
 }
 
 .login__button:hover {

@@ -303,6 +303,7 @@
     margin-top: 0.5rem;
     padding-left: 0.5rem;
 }
+
 /*Contact footer*/
 .input-container--invalid .contact__input {
     border: 1px solid var(--color-warning);
@@ -321,11 +322,13 @@
 .input-container--invalid .contact__textarea-label {
     color: var(--color-warning);
 }
-/*Login*/
 
+/*Login*/
 .input-container--invalid .login__input {
     border: 1px solid var(--color-warning);
-    border-radius: 7px;
+    border-radius: 4px;
+    margin-bottom: 0rem;
+    margin-top: 0.25rem;
 }
 .input-container--invalid .login__input-label {
     color: var(--color-warning);

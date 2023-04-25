@@ -16,18 +16,24 @@
   "products": [
     {
       "id": 1,
+      "image": "",
+      "category": "Stars Wars",
       "title": "Produto 1",
       "price": 60,
       "decription": "my description 1"
     },
     {
       "id": 2,
+      "image": "",
+      "category": "Stars Wars",
       "title": "Produto 2",
       "price": 60,
       "decription": "my description 2"
     },
     {
       "id": 3,
+      "image": "",
+      "category": "Stars Wars",
       "title": "Produto 3",
       "price": 60,
       "decription": "my description 3"

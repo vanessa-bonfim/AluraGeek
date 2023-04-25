@@ -5,7 +5,7 @@
 .login__title {
     font-size: var(--font-size-16);
     font-weight: var(--font-weight-700);
-    margin-bottom: 1rem;
+    margin-bottom: .75rem;
 }
 
 @media screen and (min-width: 768px) {
