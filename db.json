@@ -16,27 +16,155 @@
   "products": [
     {
       "id": 1,
-      "image": "",
+      "image": "./asset/img/svg/starwars1.svg",
       "category": "Stars Wars",
       "title": "Produto 1",
       "price": 60,
-      "decription": "my description 1"
+      "description": "my description 1"
     },
     {
       "id": 2,
-      "image": "",
+      "image": "./asset/img/svg/starwars2.svg",
       "category": "Stars Wars",
       "title": "Produto 2",
       "price": 60,
-      "decription": "my description 2"
+      "description": "my description 2"
     },
     {
       "id": 3,
-      "image": "",
+      "image": "./asset/img/svg/starwars3.svg",
       "category": "Stars Wars",
       "title": "Produto 3",
       "price": 60,
-      "decription": "my description 3"
+      "description": "my description 3"
+    },
+    {
+      "id": 4,
+      "image": "./asset/img/svg/starwars4.svg",
+      "category": "Stars Wars",
+      "title": "Produto 4",
+      "price": 60,
+      "description": "my description 4"
+    },
+    {
+      "id": 5,
+      "image": "./asset/img/svg/starwars5.svg",
+      "category": "Stars Wars",
+      "title": "Produto 5",
+      "price": 60,
+      "description": "my description 5"
+    },
+    {
+      "id": 6,
+      "image": "./asset/img/svg/starwars6.svg",
+      "category": "Stars Wars",
+      "title": "Produto 6",
+      "price": 60,
+      "description": "my description 6"
+    },
+    {
+      "id": 7,
+      "image": "./asset/img/svg/starwars6.svg",
+      "category": "Stars Wars",
+      "title": "Produto 6",
+      "price": 60,
+      "description": "my description 6"
+    },
+    {
+      "id": 8,
+      "image": "./asset/img/svg/starwars6.svg",
+      "category": "Stars Wars",
+      "title": "Produto 6",
+      "price": 60,
+      "description": "my description 6"
+    },
+    {
+      "id": 9,
+      "image": "./asset/img/svg/starwars6.svg",
+      "category": "Stars Wars",
+      "title": "Produto 6",
+      "price": 60,
+      "description": "my description 6"
+    },
+    {
+      "id": 10,
+      "image": "./asset/img/svg/starwars6.svg",
+      "category": "Stars Wars",
+      "title": "Produto 6",
+      "price": 60,
+      "description": "my description 6"
+    },
+    {
+      "id": 11,
+      "image": "./asset/img/svg/starwars6.svg",
+      "category": "Stars Wars",
+      "title": "Produto 6",
+      "price": 60,
+      "description": "my description 6"
+    },
+    {
+      "id": 12,
+      "image": "./asset/img/svg/starwars6.svg",
+      "category": "Stars Wars",
+      "title": "Produto 6",
+      "price": 60,
+      "description": "my description 6"
+    },
+    {
+      "id": 13,
+      "image": "./asset/img/svg/starwars6.svg",
+      "category": "Stars Wars",
+      "title": "Produto 6",
+      "price": 60,
+      "description": "my description 6"
+    },
+    {
+      "id": 14,
+      "image": "./asset/img/svg/starwars6.svg",
+      "category": "Stars Wars",
+      "title": "Produto 6",
+      "price": 60,
+      "description": "my description 6"
+    },
+    {
+      "id": 15,
+      "image": "./asset/img/svg/starwars6.svg",
+      "category": "Stars Wars",
+      "title": "Produto 6",
+      "price": 60,
+      "description": "my description 6"
+    },
+    {
+      "id": 16,
+      "image": "./asset/img/svg/starwars6.svg",
+      "category": "Stars Wars",
+      "title": "Produto 6",
+      "price": 60,
+      "description": "my description 6"
+    },
+    {
+      "id": 17,
+      "image": "./asset/img/svg/starwars6.svg",
+      "category": "Stars Wars",
+      "title": "Produto 6",
+      "price": 60,
+      "description": "my description 6"
+    },
+    {
+      "id": 18,
+      "image": "./asset/img/svg/starwars6.svg",
+      "category": "Stars Wars",
+      "title": "Produto 6",
+      "price": 60,
+      "description": "my description 6"
+    },
+    {
+      "image": "1111",
+      "category": "1111111",
+      "title": "111111111",
+      "price": "R$ 150,00",
+      "description": "0000000",
+      "id": 19
     }
   ]
 }
