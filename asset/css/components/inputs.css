@@ -352,6 +352,13 @@
 .input-container--invalid .register-product__textarea-label {
     color: var(--color-warning);
 }
+
+@media screen and (min-width: 360px) {
+    .input-search {
+        width: 100%;
+    }
+    
+}
 @media screen and (min-width: 576px) {
     .input__container {
         display: flex;

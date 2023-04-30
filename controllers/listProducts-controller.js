@@ -1,7 +1,8 @@
 // Cria uma função chamada createNewLine que recebe quatro parâmetros: image, title, price e id
 const createNewLine = (image, title, price, id) => {
-    // Cria um novo elemento div e adiciona a classe 'products__box-item'
+    // Cria um novo elemento div
     const boxItem = document.createElement('div');
+    //Adiciona a classe 'products__box-item'
     boxItem.classList.add('products__box-item');
     
     // Cria uma string de template com o HTML para cada linha do produto
@@ -89,10 +90,18 @@ const createNewLine = (image, title, price, id) => {
       // Pede ao servidor a lista de produtos
       const listProducts = await productService.listProducts()
       
-      // Itera pela lista de produtos e adiciona uma nova linha de produto para cada um
-      listProducts.forEach(element => {
+      /* É uma estrutura de loop que percorre
+      todos os elementos na matriz listProducts.
+      Para cada elemento, é criado um novo nó de elemento (linha) que
+      contém informações sobre o produto (imagem, título, preço e ID)
+      e o nó de elemento é adicionado à seção. */
+
+      listProducts.forEach(element => { // A função createNewLine é chamada em cada iteração do loop para criar um novo nó de elemento que contém as informações do produto.
+        
+        // Adiciona uma nova linha que representa o produto. O nó de elemento é adicionado ao final da seção usando o método appendChild do elemento da seção.
         section.appendChild(createNewLine(element.image, element.title, element.price, element.id))
       });
+      
     } catch (error) {
       // Se ocorrer um erro, exibe uma mensagem de alerta
       console.log(error);

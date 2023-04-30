@@ -13,158 +13,156 @@
       "password": 12345
     }
   ],
+  "settings": [
+    {
+      "key": "product_per_category",
+      "value": 6
+    }
+  ],
   "products": [
     {
-      "id": 1,
       "image": "./asset/img/svg/starwars1.svg",
-      "category": "Stars Wars",
-      "title": "Produto 1",
+      "category": "Star Wars",
+      "title": "Produto XYZ",
       "price": 60,
-      "description": "my description 1"
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": 1
     },
     {
-      "id": 2,
       "image": "./asset/img/svg/starwars2.svg",
-      "category": "Stars Wars",
-      "title": "Produto 2",
+      "category": "Star Wars",
+      "title": "Produto XYZ",
       "price": 60,
-      "description": "my description 2"
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": 2
     },
     {
-      "id": 3,
       "image": "./asset/img/svg/starwars3.svg",
-      "category": "Stars Wars",
-      "title": "Produto 3",
+      "category": "Star Wars",
+      "title": "Produto XYZ",
       "price": 60,
-      "description": "my description 3"
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": 3
     },
     {
-      "id": 4,
       "image": "./asset/img/svg/starwars4.svg",
-      "category": "Stars Wars",
-      "title": "Produto 4",
+      "category": "Star Wars",
+      "title": "Produto XYZ",
       "price": 60,
-      "description": "my description 4"
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": 4
     },
     {
-      "id": 5,
       "image": "./asset/img/svg/starwars5.svg",
-      "category": "Stars Wars",
-      "title": "Produto 5",
+      "category": "Star Wars",
+      "title": "Produto XYZ",
       "price": 60,
-      "description": "my description 5"
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": 5
     },
     {
-      "id": 6,
       "image": "./asset/img/svg/starwars6.svg",
-      "category": "Stars Wars",
-      "title": "Produto 6",
+      "category": "Star Wars",
+      "title": "Produto XYZ",
       "price": 60,
-      "description": "my description 6"
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": 6
     },
     {
-      "id": 7,
-      "image": "./asset/img/svg/starwars6.svg",
-      "category": "Stars Wars",
-      "title": "Produto 6",
+      "image": "./asset/img/svg/console1.svg",
+      "category": "Consoles",
+      "title": "Produto XYZ",
       "price": 60,
-      "description": "my description 6"
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": 7
     },
     {
-      "id": 8,
-      "image": "./asset/img/svg/starwars6.svg",
-      "category": "Stars Wars",
-      "title": "Produto 6",
+      "image": "./asset/img/svg/console2.svg",
+      "category": "Consoles",
+      "title": "Produto XYZ",
       "price": 60,
-      "description": "my description 6"
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": 8
     },
     {
-      "id": 9,
-      "image": "./asset/img/svg/starwars6.svg",
-      "category": "Stars Wars",
-      "title": "Produto 6",
+      "image": "./asset/img/svg/console3.svg",
+      "category": "Consoles",
+      "title": "Produto XYZ",
       "price": 60,
-      "description": "my description 6"
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": 9
     },
     {
-      "id": 10,
-      "image": "./asset/img/svg/starwars6.svg",
-      "category": "Stars Wars",
-      "title": "Produto 6",
+      "image": "./asset/img/svg/console4.svg",
+      "category": "Consoles",
+      "title": "Produto XYZ",
       "price": 60,
-      "description": "my description 6"
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": 10
     },
     {
-      "id": 11,
-      "image": "./asset/img/svg/starwars6.svg",
-      "category": "Stars Wars",
-      "title": "Produto 6",
+      "image": "./asset/img/svg/console5.svg",
+      "category": "Consoles",
+      "title": "Produto XYZ",
       "price": 60,
-      "description": "my description 6"
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": 11
     },
     {
-      "id": 12,
-      "image": "./asset/img/svg/starwars6.svg",
-      "category": "Stars Wars",
-      "title": "Produto 6",
+      "image": "./asset/img/svg/console6.svg",
+      "category": "Consoles",
+      "title": "Produto XYZ",
       "price": 60,
-      "description": "my description 6"
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": 12
     },
     {
-      "id": 13,
-      "image": "./asset/img/svg/starwars6.svg",
-      "category": "Stars Wars",
-      "title": "Produto 6",
+      "image": "./asset/img/svg/others1.svg",
+      "category": "Diversos",
+      "title": "Produto XYZ",
       "price": 60,
-      "description": "my description 6"
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": 13
     },
     {
-      "id": 14,
-      "image": "./asset/img/svg/starwars6.svg",
-      "category": "Stars Wars",
-      "title": "Produto 6",
+      "image": "./asset/img/svg/others2.svg",
+      "category": "Diversos",
+      "title": "Produto XYZ",
       "price": 60,
-      "description": "my description 6"
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": 14
     },
     {
-      "id": 15,
-      "image": "./asset/img/svg/starwars6.svg",
-      "category": "Stars Wars",
-      "title": "Produto 6",
+      "image": "./asset/img/svg/others3.svg",
+      "category": "Diversos",
+      "title": "Produto XYZ",
       "price": 60,
-      "description": "my description 6"
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": 15
     },
     {
-      "id": 16,
-      "image": "./asset/img/svg/starwars6.svg",
-      "category": "Stars Wars",
-      "title": "Produto 6",
+      "image": "./asset/img/svg/others4.svg",
+      "category": "Diversos",
+      "title": "Produto XYZ",
       "price": 60,
-      "description": "my description 6"
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": 16
     },
     {
-      "id": 17,
-      "image": "./asset/img/svg/starwars6.svg",
-      "category": "Stars Wars",
-      "title": "Produto 6",
+      "image": "./asset/img/svg/others5.svg",
+      "category": "Diversos",
+      "title": "Produto XYZ",
       "price": 60,
-      "description": "my description 6"
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": 17
     },
     {
-      "id": 18,
-      "image": "./asset/img/svg/starwars6.svg",
-      "category": "Stars Wars",
-      "title": "Produto 6",
+      "image": "./asset/img/svg/others6.svg",
+      "category": "Diversos",
+      "title": "Produto XYZ",
       "price": 60,
-      "description": "my description 6"
-    },
-    {
-      "image": "1111",
-      "category": "1111111",
-      "title": "111111111",
-      "price": "R$ 150,00",
-      "description": "0000000",
-      "id": 19
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": 18
     }
   ]
 }

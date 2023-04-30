@@ -5,7 +5,7 @@ header {
     height: 4.5rem;
     align-items: center;
     justify-content: space-between;
-    gap: 1.8rem;
+    gap: 1rem;
 }
 .header__box {
     justify-content: space-between;

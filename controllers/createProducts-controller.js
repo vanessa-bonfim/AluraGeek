@@ -6,6 +6,7 @@ form.addEventListener('submit', async (event) => {
     // Prevenir o comportamento padrão do evento de envio de formulário
     event.preventDefault();
     try {
+        debugger
         // Seleciona cada campo do formulário pelos seus atributos 'data-type' e obtém seus valores
         const image = event.target.querySelector('[data-type="image"]').value;
         const category = event.target.querySelector('[data-type="category"]').value;
