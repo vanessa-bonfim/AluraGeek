@@ -1,4 +1,6 @@
-const listProducts = () => { // Declaração da função listProducts
+const productService = {};
+
+productService.listProducts = () => { // Declaração da função listProducts
     return fetch(`http://localhost:3000/products`) // Realiza uma requisição GET para a URL especificada, que retorna uma promessa
         .then(response => { // Trata a promessa retornada pela requisição GET
             if (response.ok) { // Verifica se a resposta da requisição foi bem sucedida
@@ -8,7 +10,7 @@ const listProducts = () => { // Declaração da função listProducts
         });
 };
 
-const createProduct = (image, categoty, productName, productPrice, productDescription) => { // Declaração da função createProduct com os parâmetros image, categoty, productName, productPrice e productDescription
+productService.createProduct = (image, categoty, productName, productPrice, productDescription) => { // Declaração da função createProduct com os parâmetros image, categoty, productName, productPrice e productDescription
     return fetch(`http://localhost:3000/products`, { // Realiza uma requisição POST para a URL especificada, que retorna uma promessa
         method: 'POST', // Especifica o método da requisição como POST
         headers: { // Define os cabeçalhos da requisição
@@ -30,7 +32,7 @@ const createProduct = (image, categoty, productName, productPrice, productDescri
         })
 };
 
-const removeProduct = (id) => { // Declaração da função removeProduct com o parâmetro id
+productService.removeProduct = (id) => { // Declaração da função removeProduct com o parâmetro id
     return fetch(`http://localhost:3000/products/${id}`, { // Realiza uma requisição DELETE para a URL especificada, que retorna uma promessa
         method: 'DELETE' // Especifica o método da requisição como DELETE
     }).then(response => { // Trata a promessa retornada pela requisição DELETE
@@ -40,7 +42,7 @@ const removeProduct = (id) => { // Declaração da função removeProduct com o 
     })
 };
 
-const detailProduct = (id) => { // Declaração da função detailProduct com o parâmetro id
+productService.detailProduct = (id) => { // Declaração da função detailProduct com o parâmetro id
     return fetch(`http://localhost:3000/products/${id}`) // Realiza uma requisição GET para a URL especificada, que retorna uma promessa
         .then(response => { // Trata a promessa retornada pela requisição GET
             if (response.ok) { // Verifica se a resposta da requisição foi bem sucedida
@@ -50,7 +52,7 @@ const detailProduct = (id) => { // Declaração da função detailProduct com o 
         });
 };
 // Esta função recebe como parâmetros os dados do produto que serão atualizados
-const updateProduct = (id, image, category, productName, productPrice, productDescription) => {
+productService.updateProduct = (id, image, category, productName, productPrice, productDescription) => {
     // A função fetch é usada para fazer uma requisição HTTP PUT ao servidor,
     // informando a URL da API RESTful que receberá a atualização
     return fetch(`http://localhost:3000/products/${id}`, {
@@ -78,11 +80,12 @@ const updateProduct = (id, image, category, productName, productPrice, productDe
         });
 };
 
-// Este objeto encapsula várias funções relacionadas à API RESTful de gerenciamento de produtos
-const productService = {
-    listProducts,    // função para listar todos os produtos
-    createProduct,   // função para criar um novo produto
-    removeProduct,   // função para remover um produto existente
-    detailProduct,   // função para obter detalhes de um produto
-    updateProduct    // função para atualizar um produto existente
-};
+
+//// Este objeto encapsula várias funções relacionadas à API RESTful de gerenciamento de produtos
+//const productService = {
+//    listProducts,    // função para listar todos os produtos
+//    createProduct,   // função para criar um novo produto
+//    removeProduct,   // função para remover um produto existente
+//    detailProduct,   // função para obter detalhes de um produto
+//    updateProduct    // função para atualizar um produto existente
+//};

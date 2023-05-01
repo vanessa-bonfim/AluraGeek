@@ -1,3 +1,4 @@
+(function() {
 // Atribuindo ao objeto "search" a referência do elemento com id "search"
 let search = document.querySelector("#search");
 
@@ -126,4 +127,8 @@ const takeURL = new URL(window.location);
 const q = takeURL.searchParams.get('q') || '';
 
 // Chamando a função "render" com o parâmetro "q"
-render(q);
+if (q) {
+  render(q);
+}
+
+})();

@@ -19,8 +19,8 @@ const createCategory = (category, items) => {
         </div>
     </div>
     <div class="borda category__box-section-itens flex flex--wrap">${items.map(item => createNewLine(item)).join('')
-        }</div>`
-        ;
+        }</div>`; // abre a interpolação de string; chama o método map que percorre o array de items; para cada item, chama a função createNewLine; que retorna uma string; converte o array de strings em uma única string; fecha a interpolação de string;
+        
 
     // Define a string HTML criada como conteúdo do elemento <section> criado anteriormente
     categorySection.innerHTML = subject;
@@ -54,15 +54,15 @@ const render = async () => {
         const main = document.querySelector('main');
 
         // Obter a lista completa de produtos do serviço de produtos
-        const listProducts = await productService.listProducts();
+        const listOfProducts = await productService.listProducts();
 
         // Inicializar um objeto para armazenar as categorias e seus respectivos produtos
         const listCategories = {};
 
         // Percorrer a lista de produtos e agrupá-los por categoria em um objeto
-        for (let i = 0; i < listProducts.length; i++) {
+        for (let i = 0; i < listOfProducts.length; i++) {
             // Iterando sobre cada elemento na lista de produtos.
-            const element = listProducts[i];
+            const element = listOfProducts[i];
             // Armazena o elemento atual em uma constante chamada 'element'.
 
             if (listCategories[element.category] === undefined) {

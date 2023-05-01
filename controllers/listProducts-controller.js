@@ -45,9 +45,6 @@ const createNewLine = (image, title, price, id) => {
       
       // Remove o produto do servidor
       await productService.removeProduct(id)
-      
-      // Remove a linha do produto da lista
-      lineProduct.remove()
     }
     catch(error){
       // Se ocorrer um erro, exibe uma mensagem de alerta
@@ -58,6 +55,7 @@ const createNewLine = (image, title, price, id) => {
   
   // Seleciona o elemento HTML com o atributo de dados "data-products"
   const section = document.querySelector('[data-products]');
+  
   /* section.addEventListener('click', async (event) => {
     event.preventDefault();
     let isButtomDelete = event.target.className === 'products__action-delete';
@@ -82,13 +80,13 @@ const createNewLine = (image, title, price, id) => {
             alert("Não foi possível remover o produto!")
         }
     }
-}) */
+  }) */
   
   // Cria uma função assíncrona chamada render
   const render = async() => {
     try {
       // Pede ao servidor a lista de produtos
-      const listProducts = await productService.listProducts()
+      const listOfProducts = await productService.listProducts()
       
       /* É uma estrutura de loop que percorre
       todos os elementos na matriz listProducts.
@@ -96,7 +94,7 @@ const createNewLine = (image, title, price, id) => {
       contém informações sobre o produto (imagem, título, preço e ID)
       e o nó de elemento é adicionado à seção. */
 
-      listProducts.forEach(element => { // A função createNewLine é chamada em cada iteração do loop para criar um novo nó de elemento que contém as informações do produto.
+      listOfProducts.forEach(element => { // A função createNewLine é chamada em cada iteração do loop para criar um novo nó de elemento que contém as informações do produto.
         
         // Adiciona uma nova linha que representa o produto. O nó de elemento é adicionado ao final da seção usando o método appendChild do elemento da seção.
         section.appendChild(createNewLine(element.image, element.title, element.price, element.id))
